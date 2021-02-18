@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <style>       
+            /* size and position of map */
+            #map {
+                height:300px; 
+                width: 400px; 
+                margin: auto ; 
+                padding:0;                
+            }                      
+            /* Create two equal columns that floats next to each other */
+            .column {
+                float: left;
+                width: 50%;
+                padding-left: 50px;
+                padding-top: 0px;
+            }
+
+        </style>
+        <title>Google Maps API 2020 K1602692 </title>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWXsGwOCCyPwuBfQ2idyC5M97Bc5Xlyjs&callback=initMap"
+        type="text/javascript"></script>
+        <script type="text/javascript" src="javascript.js"></script>
+    </head>
+    <body>
+        <h1>Google Maps API 2020 </h1>
+
+        <div class="column" id="map" ></div>
+        <div class="column">
+            <label>Enter Coordinates below before clicking a button..</label> <br><br>
+            <label for="latitude">Latitude:</label><br>
+            <input type="text" id="latitude"><br>
+            <label for="longitude">Longitude:</label><br>
+            <input type="text" id="longitude"><br><br>
+            
+            <button id="button1" onclick="button1()"> Button 1 </button>  
+            <button id="button2" onclick="button2()"> Button 2 </button>
+            <button id="button3" onclick="button3()"> Button 3 </button>  
+            <button id="button4" onclick="button4()"> Button 4 </button>
+            <button id="button5" onclick="button5()"> Button 5 </button>   
+            <button id="button6" onclick="button6()"> Button 6 </button>
+        </div>
+    </body>
+</html>
