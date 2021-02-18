@@ -1,2 +1,2 @@
 # GoogleMapsAPI
-GMAPSapi leveraged using HTML5 and JavaScript to implement interactive Google Maps API which works via Web browser.
+GMAPSapi leveraged to implement interactive Google Maps API with HTML5 and JavaScript which is deployed via Web browser.
